@@ -4,6 +4,7 @@ on:
     branches:
     - master
     paths:
+    - .github/workflows/label-sync.yml
     - .github/label-sync.yml
 
 jobs:
@@ -13,4 +14,5 @@ jobs:
     - uses: DrBarnabus/github-label-sync@main
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        
+        owner: DrBarnabus
+        repo: label-testing

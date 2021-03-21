@@ -4,3 +4,6 @@ labels:
   color: '#d73a4a'
 - name: new_label
   color: '#f2f2f2'
+- name: new_label_desc
+  description: 'Label with a Description'
+  color: '#555555'

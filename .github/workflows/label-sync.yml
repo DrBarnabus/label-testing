@@ -8,7 +8,8 @@ on:
     - .github/label-sync.yml
 
 jobs:
-  build:
+  label-sync:
+    name: 'Sync Labels'
     runs-on: ubuntu-latest
     steps:
     - uses: DrBarnabus/github-label-sync@main

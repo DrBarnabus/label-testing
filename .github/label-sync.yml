@@ -1,9 +1,9 @@
 labels:
 - name: bug
   description: 'Something isn''t working'
-  color: '#d73a4a'
+  color: 'd73a4a'
 - name: new_label
-  color: '#f2f2f2'
+  color: 'f2f2f2'
 - name: new_label_desc
   description: 'Label with a Description'
-  color: '#666666'
+  color: '666666'

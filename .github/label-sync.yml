@@ -1,0 +1,6 @@
+labels:
+- name: bug
+  description: 'Something isn't working'
+  color: '#d73a4a'
+- name: new_label
+  color: '#f2f2f2'

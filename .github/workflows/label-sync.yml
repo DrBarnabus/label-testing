@@ -1,0 +1,16 @@
+name: 'Label Sync'
+on:
+  push:
+    branches:
+    - master
+    paths:
+    - .github/label-sync.yml
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: DrBarnabus/github-label-sync@main
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        

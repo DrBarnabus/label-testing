@@ -17,3 +17,8 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         owner: DrBarnabus
         repo: label-testing
+    - uses: DrBarnabus/github-label-sync@main
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        owner: DrBarnabus
+        repo: label-test

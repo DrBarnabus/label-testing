@@ -7,3 +7,7 @@ labels:
 - name: new_label_desc
   description: 'Label with a Description'
   color: '666666'
+- name: approved
+  color: 00FF00
+- name: rejected
+  color: FF0000

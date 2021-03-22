@@ -1,0 +1,15 @@
+name: 'Pull Request Automation'
+on: 
+  pull_request:
+    types: [edited,synchronize]
+  pull_request_review:
+    types: [submitted,edited,dismissed]
+
+jobs:
+  pullrequest-automation:
+    name: 'Pull Request Automation'
+    runs-on: ubuntu-latest
+    steps:
+    - uses: DrBarnabus/github-pullrequest-automation@main
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}

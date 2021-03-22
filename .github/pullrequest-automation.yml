@@ -1,0 +1,4 @@
+requiredApprovals: 2
+labels:
+  approved: 'approved'
+  rejected: 'rejected'

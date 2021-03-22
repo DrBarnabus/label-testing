@@ -1,7 +1,7 @@
 name: 'Pull Request Automation'
 on: 
   pull_request:
-    types: [edited,synchronize]
+    types: [opened,edited,synchronize]
   pull_request_review:
     types: [submitted,edited,dismissed]
 

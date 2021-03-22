@@ -1,4 +1,11 @@
-requiredApprovals: 2
+requiredApprovals: 1
 labels:
   approved: 'approved'
   rejected: 'rejected'
+branchLabeller:
+- target: 'main'
+  startsWith: false
+  label: 'target: main'
+- target: 'release/'
+  startsWith: true
+  label: 'target: release/*'

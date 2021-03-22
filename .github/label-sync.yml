@@ -11,3 +11,7 @@ labels:
   color: 00FF00
 - name: rejected
   color: FF0000
+- name: 'target: main'
+  color: FFFFFF
+- name: 'target: release/*'
+  color: 0000FF

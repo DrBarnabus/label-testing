@@ -1,9 +1,9 @@
 name: 'Pull Request Automation'
 on: 
   pull_request:
-    types: [opened,edited,synchronize]
+    types: [opened, edited, synchronize]
   pull_request_review:
-    types: [submitted,edited,dismissed]
+    types: [submitted, edited, dismissed]
 
 jobs:
   pullrequest-automation:
